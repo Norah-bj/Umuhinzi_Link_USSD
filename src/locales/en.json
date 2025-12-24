@@ -1,0 +1,99 @@
+{
+    "general": {
+        "welcome": "Welcome to UmuhinziLink",
+        "choose_language": "Select Language:\n1. English\n2. Ikinyarwanda\n3. Français",
+        "navigation": {
+            "back": "0. Back",
+            "main_menu": "00. Main Menu"
+        }
+    },
+    "auth": {
+        "main_menu": "Welcome to UmuhinziLink\n1. Login\n2. Register\n3. Help",
+        "login": {
+            "phone": "Enter Phone Number:",
+            "pin": "Enter PIN:",
+            "success": "Login Successful!"
+        },
+        "register": {
+            "choose_role": "Select your role:\n1. Farmer\n2. Buyer\n3. Supplier",
+            "full_name": "Enter Full Name:",
+            "contact": "Enter Contact Number:",
+            // "national_id": "Enter National ID:",
+            "district": "Enter District:",
+            "sector": "Enter Sector:",
+            "cell": "Enter Cell:",
+            "village": "Enter Village:",
+            "choose_crop": "Choose Crop Category:\n1. Cereals\n2. Vegetables\n3. Fruits\n4. Legumes\n5. Roots\n6. Oil Crops\n7. Cash Crops\n8. Spices & Herbs\n9. Other",
+            "choose_type_of_buyer": "Choose Type of Buyer:\n1. Individual\n2. Retailer\n3. Wholesale\n4. Cooperative\n5. Institution\n6. Other",
+            "pin": "Set 4-digit PIN:",
+            "confirm_pin": "Confirm PIN:",
+            // "business_type": "Enter Business Type:",
+            "supplier_type": "Enter Supplier Type:\n1. Seeds\n2. Fertilizers\n3. Pesticides\n4. Equipment\n5. Mixed\n6. Other",
+            // "products_offered": "Enter Products Offered:",
+            "location": "Enter Location:"
+        }
+    },
+    "farmer": {
+        "menu": "Farmer Menu\n1. Sell Produce\n2. View Orders\n3. Apply for Inputs\n4. Wallet\n5. Training Tips\n6. My Profile\n7. Log out",
+        "sell": {
+            "select_crop": "Select crop:\n1. Maize\n2. Beans\n3. Potatoes\n4. Vegetables\n5. Other",
+            "enter_quantity": "Enter Quantity (KG):",
+            "enter_price": "Enter Price per KG:",
+            "confirm": "Confirm listing?\n1. Yes\n2. No"
+        },
+        "orders": {
+            "menu": "Your Orders:\n1. Pending Orders\n2. Accepted Orders\n3. Completed Orders\n4. Cancelled Orders",
+            "confirm_request": "Order from {buyer}\n{crop} {qty} KG @{price} RWF\n1. Accept\n2. Reject"
+        },
+        "inputs": {
+            "menu": "Input Requests\n1. Seeds\n2. Fertilizers\n3. Pesticides\n4. Irrigation Tools\n5. Track Requests",
+            "choose_item": "Choose item:",
+            "enter_quantity": "Enter quantity:"
+        },
+        "wallet": {
+            "menu": "Wallet:\nBalance: {balance} RWF\n1. Withdraw\n2. Transaction History\n3. Link Bank/Mobile Money",
+            "withdraw_amount": "Enter amount:",
+            "withdraw_confirm": "Confirm?"
+        },
+        "training": {
+            "menu": "Training:\n1. Planting tips\n2. Weather alerts\n3. Market prices\n4. Modern farming guides"
+        },
+        "profile": {
+            "menu": "1. View Profile\n2. Update Location\n3. Change PIN\n4. Support"
+        }
+    },
+    "buyer": {
+        "menu": "Buyer Menu\n1. Search Produce\n2. My Orders\n3. Wallet\n4. Market Prices\n5. Supplier Requests\n6. Profile\n7. Log out",
+        "search": {
+            "criteria": "Search By:\n1. Crop Type\n2. Location\n3. Price Range",
+            "available_farmers": "Available Farmers:\n{list}",
+            "list_item": "{index}. {name} – {qty}KG – {price} RWF/KG",
+            "enter_qty": "Enter quantity:",
+            "confirm": "Confirm order?\n1. Yes\n2. No"
+        },
+        "orders": {
+            "menu": "1. Pending\n2. Approved\n3. Delivered\n4. Cancelled"
+        },
+        "market_prices": "Market Prices Today:\nMaize: 350–420\nBeans: 800–950\nPotatoes: 250–300",
+        "supplier_requests": {
+            "menu": "1. Packaging Services\n2. Transport\n3. Storage Services\n4. Track Requests"
+        }
+    },
+    "supplier": {
+        "menu": "Supplier Menu\n1. Add Products\n2. Orders from Farmers\n3. Orders from Buyers\n4. Wallet\n5. Stock\n6. Profile\n7. Log out",
+        "add_product": {
+            "category": "Select category:\n1. Seeds\n2. Fertilizers\n3. Tools\n4. Other",
+            "name": "Enter product name:",
+            "price": "Enter price:",
+            "stock": "Enter stock:",
+            "confirm": "Confirm?"
+        },
+        "orders": {
+            "menu": "1. Pending\n2. Fulfilled\n3. Cancelled",
+            "details": "Order: {item} – {qty}\nFrom: {name}\n1. Accept\n2. Reject\n3. Call Client"
+        },
+        "stock": {
+            "view": "Current Stock:\n{list}\n1. Update Stock\n2. Back"
+        }
+    }
+}

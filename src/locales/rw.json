@@ -1,0 +1,99 @@
+{
+    "general": {
+        "welcome": "Murakaza neza kuri UmuhinziLink",
+        "choose_language": "Hitamo Ururimi:\n1. English\n2. Ikinyarwanda\n3. Français",
+        "navigation": {
+            "back": "0. Gusubira inyuma",
+            "main_menu": "00. Ahabanza"
+        }
+    },
+    "auth": {
+        "main_menu": "Murakaza neza kuri UmuhinziLink\n1. Kwinjira\n2. Kwiyandikisha\n3. Ubufasha",
+        "login": {
+            "phone": "Andika Numero ya Telefone:",
+            "pin": "Andika PIN:",
+            "success": "Mwinjiye neza!"
+        },
+        "register": {
+            "choose_role": "Hitamo icyo ushaka kuba:\n1. Umuhinzi\n2. Umuguzi\n3. Umucuruzi w'inyongeramusaruro",
+            "full_name": "Andika Amazina Yose:",
+            "contact": "Andika Numero ya Telefone:",
+            // "national_id": "Andika Indangamuntu:",
+            "district": "Andika Akarere:",
+            "sector": "Andika Umurenge:",
+            "cell": "Andika Akagari:",
+            "village": "Andika Umudugudu:",
+            "choose_crop": "Hitamo Ubwoko bw'Igihingwa:\n1. Ibinyampeke\n2. Imboga\n3. Imbuto\n4. Ibinyamisogwe\n5. Ibinyabijumba\n6. Ibihingwa bitanga amavuta\n7. Ibihingwa ngengabukungu\n8. Ibirungo\n9. Ibindi",
+            "choose_type_of_buyer": "Hitamo ubwoko bw'Umuguzi:\n1. Umuntu ku giti cye\n2. Umucuruzi muto\n3. Umucuruzi munini\n4. Koperative\n5. Ikigo\n6. Ibindi",
+            "pin": "Shiraho PIN y'imibare 4:",
+            "confirm_pin": "Emeza PIN:",
+            // "business_type": "Andika Ubwoko bw'Ubucuruzi:",
+            "supplier_type": "Andika Ubwoko bw'Utanga:\n1. Imbuto\n2. Ifumbire\n3. Imiti\n4. Ibikoresho\n5. Ivangavanze\n6. Ibindi",
+            // "products_offered": "Andika Ibicuruzwa Utanga:",
+            "location": "Andika Aho Uherereye:"
+        }
+    },
+    "farmer": {
+        "menu": "Menu y'Umuhinzi\n1. Gurisha Umusaruro\n2. Reba Amabwiriza\n3. Saba Inyongeramusaruro\n4. Ikomo\n5. Inama zigenga Ubuhinzi\n6. Umwirondoro\n7. Sohoka",
+        "sell": {
+            "select_crop": "Hitamo igihingwa:\n1. Ibigori\n2. Ibishyimbo\n3. Ibirayi\n4. Imboga\n5. Ibindi",
+            "enter_quantity": "Andika Ingano (KG):",
+            "enter_price": "Andika Igiciro kuri KG:",
+            "confirm": "Emeza lisiti?\n1. Yego\n2. Oya"
+        },
+        "orders": {
+            "menu": "Amabwiriza yawe:\n1. Amabwiriza ategereje\n2. Amabwiriza yemewe\n3. Amabwiriza yarangiye\n4. Amabwiriza yanzwe",
+            "confirm_request": "Komande ivuye kuri {buyer}\n{crop} {qty} KG @{price} RWF\n1. Wemere\n2. Wange"
+        },
+        "inputs": {
+            "menu": "Gusaba Inyongeramusaruro\n1. Imbuto\n2. Ifumbire\n3. Imiti yica udukoko\n4. Ibikoresho byo kuhira\n5. Kurikirana ibyasabwe",
+            "choose_item": "Hitamo igicuruzwa:",
+            "enter_quantity": "Andika ingano:"
+        },
+        "wallet": {
+            "menu": "Ikomo:\nAmafaranga ufite: {balance} RWF\n1. Kubikuza\n2. Reba uko amafaranga yagiye akoreshwa\n3. Huza na Banki/Mobile Money",
+            "withdraw_amount": "Andika umubare:",
+            "withdraw_confirm": "Emeza?"
+        },
+        "training": {
+            "menu": "Amahugurwa:\n1. Inama zo guhinga\n2. Iteganyagihe\n3. Ibiciro by'isoko\n4. Imfashanyigisho z'ubuhinzi bugezweho"
+        },
+        "profile": {
+            "menu": "1. Reba Umwirondoro\n2. Hindura Aho Uherereye\n3. Hindura PIN\n4. Ubufasha"
+        }
+    },
+    "buyer": {
+        "menu": "Menu y'Umuguzi\n1. Shakisha Umusaruro\n2. Amabwiriza Yanjye\n3. Ikomo\n4. Ibiciro by'Isoko\n5. Gusaba Abatanga Ibikoresho\n6. Umwirondoro\n7. Sohoka",
+        "search": {
+            "criteria": "Shakisha Ukurikije:\n1. Ubwoko bw'Igihingwa\n2. Aho Uherereye\n3. Igiciro",
+            "available_farmers": "Abahinzi Bahari:\n{list}",
+            "list_item": "{index}. {name} – {qty}KG – {price} RWF/KG",
+            "enter_qty": "Andika ingano:",
+            "confirm": "Emeza komande?\n1. Yego\n2. Oya"
+        },
+        "orders": {
+            "menu": "1. Itegereje\n2. Yemejwe\n3. Yageze\n4. Yanzwe"
+        },
+        "market_prices": "Ibiciro by'Isoko Uyu munsi:\nIbigori: 350–420\nIbishyimbo: 800–950\nIbirayi: 250–300",
+        "supplier_requests": {
+            "menu": "1. Serivisi zo Gupakira\n2. Ubwikorezi\n3. Serivisi z'Ububiko\n4. Kurikirana ibyasabwe"
+        }
+    },
+    "supplier": {
+        "menu": "Menu y'Utanga Ibikoresho\n1. Ongeramo Ibicuruzwa\n2. Komande z'Abahinzi\n3. Komande z'Abaguzi\n4. Ikomo\n5. Ububiko\n6. Umwirondoro\n7. Sohoka",
+        "add_product": {
+            "category": "Hitamo icyiciro:\n1. Imbuto\n2. Ifumbire\n3. Ibikoresho\n4. Ibindi",
+            "name": "Andika izina ry'igicuruzwa:",
+            "price": "Andika igiciro:",
+            "stock": "Andika ingano mu bubiko:",
+            "confirm": "Emeza?"
+        },
+        "orders": {
+            "menu": "1. Itegereje\n2. Yuzurijwe\n3. Yanzwe",
+            "details": "Komande: {item} – {qty}\nIvuye kuri: {name}\n1. Wemere\n2. Wange\n3. Hamagara Umukiriya"
+        },
+        "stock": {
+            "view": "Ububiko buhari:\n{list}\n1. Kuvugurura Ububiko\n2. Gusubira inyuma"
+        }
+    }
+}

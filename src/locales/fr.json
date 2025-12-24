@@ -1,0 +1,99 @@
+{
+    "general": {
+        "welcome": "Bienvenue à UmuhinziLink",
+        "choose_language": "Choisissez la langue:\n1. English\n2. Ikinyarwanda\n3. Français",
+        "navigation": {
+            "back": "0. Retour",
+            "main_menu": "00. Menu Principal"
+        }
+    },
+    "auth": {
+        "main_menu": "Bienvenue à UmuhinziLink\n1. Connexion\n2. S'inscrire\n3. Aide",
+        "login": {
+            "phone": "Entrez le numéro de téléphone:",
+            "pin": "Entrez le code PIN:",
+            "success": "Connexion réussie!"
+        },
+        "register": {
+            "choose_role": "Choisissez votre rôle:\n1. Agriculteur\n2. Acheteur\n3. Fournisseur",
+            "full_name": "Entrez le nom complet:",
+            "contact": "Entrez le numero de contact:",
+            // "national_id": "Entrez la carte d'identité:",
+            "district": "Entrez le district:",
+            "sector": "Entrez le secteur:",
+            "cell": "Entrez la cellule:",
+            "village": "Entrez le village:",
+            "choose_crop": "Choisissez la catégorie de culture:\n1. Céréales\n2. Légumes\n3. Fruits\n4. Légumineuses\n5. Tubercules\n6. Oléagineux\n7. Cultures de rente\n8. Épices et herbes\n9. Autre",
+            "choose_type_of_buyer": "Choisissez le type d'acheteur:\n1. Particulier\n2. Détaillant\n3. Grossiste\n4. Coopérative\n5. Institution\n6. Autre",
+            "pin": "Définir un code PIN à 4 chiffres:",
+            "confirm_pin": "Confirmez le code PIN:",
+            // "business_type": "Entrez le type d'entreprise:",
+            "supplier_type": "Entrez le type de fournisseur:\n1. Semences\n2. Engrais\n3. Pesticides\n4. Équipement\n5. Mixte\n6. Autre",
+            // "products_offered": "Entrez les produits offerts:",
+            "location": "Entrez l'emplacement:"
+        }
+    },
+    "farmer": {
+        "menu": "Menu Agriculteur\n1. Vendre des produits\n2. Voir les commandes\n3. Demander des intrants\n4. Portefeuille\n5. Conseils de formation\n6. Mon profil\n7. Se déconnecter",
+        "sell": {
+            "select_crop": "Sélectionnez la culture:\n1. Maïs\n2. Haricots\n3. Pommes de terre\n4. Légumes\n5. Autre",
+            "enter_quantity": "Entrez la quantité (KG):",
+            "enter_price": "Entrez le prix par KG:",
+            "confirm": "Confirmer la liste?\n1. Oui\n2. Non"
+        },
+        "orders": {
+            "menu": "Vos commandes:\n1. Commandes en attente\n2. Commandes acceptées\n3. Commandes terminées\n4. Commandes annulées",
+            "confirm_request": "Commande de {buyer}\n{crop} {qty} KG @{price} RWF\n1. Accepter\n2. Rejeter"
+        },
+        "inputs": {
+            "menu": "Demandes d'intrants\n1. Semences\n2. Engrais\n3. Pesticides\n4. Outils d'irrigation\n5. Suivre les demandes",
+            "choose_item": "Choisissez l'article:",
+            "enter_quantity": "Entrez la quantité:"
+        },
+        "wallet": {
+            "menu": "Portefeuille:\nSolde: {balance} RWF\n1. Retirer\n2. Historique des transactions\n3. Lier Banque/Mobile Money",
+            "withdraw_amount": "Entrez le montant:",
+            "withdraw_confirm": "Confirmer?"
+        },
+        "training": {
+            "menu": "Formation:\n1. Conseils de plantation\n2. Alertes météo\n3. Prix du marché\n4. Guides d'agriculture moderne"
+        },
+        "profile": {
+            "menu": "1. Voir le profil\n2. Mettre à jour l'emplacement\n3. Changer le code PIN\n4. Support"
+        }
+    },
+    "buyer": {
+        "menu": "Menu Acheteur\n1. Rechercher des produits\n2. Mes commandes\n3. Portefeuille\n4. Prix du marché\n5. Demandes aux fournisseurs\n6. Profil\n7. Se déconnecter",
+        "search": {
+            "criteria": "Rechercher par:\n1. Type de culture\n2. Emplacement\n3. Fourchette de prix",
+            "available_farmers": "Agriculteurs disponibles:\n{list}",
+            "list_item": "{index}. {name} – {qty}KG – {price} RWF/KG",
+            "enter_qty": "Entrez la quantité:",
+            "confirm": "Confirmer la commande?\n1. Oui\n2. Non"
+        },
+        "orders": {
+            "menu": "1. En attente\n2. Approuvé\n3. Livré\n4. Annulé"
+        },
+        "market_prices": "Prix du marché aujourd'hui:\nMaïs: 350–420\nHaricots: 800–950\nPommes de terre: 250–300",
+        "supplier_requests": {
+            "menu": "1. Services d'emballage\n2. Transport\n3. Services de stockage\n4. Suivre les demandes"
+        }
+    },
+    "supplier": {
+        "menu": "Menu Fournisseur\n1. Ajouter des produits\n2. Commandes des agriculteurs\n3. Commandes des acheteurs\n4. Portefeuille\n5. Stock\n6. Profil\n7. Se déconnecter",
+        "add_product": {
+            "category": "Sélectionnez la catégorie:\n1. Semences\n2. Engrais\n3. Outils\n4. Autre",
+            "name": "Entrez le nom du produit:",
+            "price": "Entrez le prix:",
+            "stock": "Entrez le stock:",
+            "confirm": "Confirmer?"
+        },
+        "orders": {
+            "menu": "1. En attente\n2. Rempli\n3. Annulé",
+            "details": "Commande: {item} – {qty}\nDe: {name}\n1. Accepter\n2. Rejeter\n3. Appeler le client"
+        },
+        "stock": {
+            "view": "Stock actuel:\n{list}\n1. Mettre à jour le stock\n2. Retour"
+        }
+    }
+}
